@@ -1,12 +1,12 @@
 <template>
     <div>
-        ces
+        bz
     </div>
 </template>
 <script>
 import store from "../store/store";
 export default {
-    name:'ces',
+    name:'bz',
     mounted(){
         console.log(store)
     }

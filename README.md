@@ -24,3 +24,5 @@ npm run test
 ```
 npm run lint
 ```
+git config --global --unset https.proxy
+git config --global --unset http.proxy

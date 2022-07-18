@@ -1,5 +1,9 @@
 <template>
   <div class="TopHeader">
+    <span class="gsm">
+      <img src="../../assets/logo.png" class="imgs">
+      <span class="titles">字节科技有限公司</span>
+    </span>
     <span>欢迎您 {{ userList.username }}</span>
     <el-dropdown>
       <i
@@ -53,3 +57,25 @@ export default {
   },
 };
 </script>
+<style scoped>
+.gsm{
+  float: left;
+  font-size: 20px;
+  font-family: ‘Microsoft YaHei’;
+  height: 60px;
+}
+.imgs{
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.titles{
+  display: inline-block;
+  line-height: 60px;
+  height: 60px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+</style>

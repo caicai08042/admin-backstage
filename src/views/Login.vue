@@ -92,7 +92,7 @@ export default {
               //将用户信息存储到vuex中
               store.commit("getUser", res);
               setTimeout(() => {
-                this.loading = false;
+                this.loading = true;
                 this.$router.push("/index");
               }, 3000);
             } else {
@@ -150,5 +150,8 @@ export default {
 }
 .fontClass {
   font-size: 18px;
+}
+.el-loading-parent--relative /deep/ .el-loading-mask{
+  border-radius: 30px;
 }
 </style>

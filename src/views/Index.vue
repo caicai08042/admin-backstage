@@ -50,6 +50,7 @@ body {
   left: 0;
   right: 0;
   z-index: 99;
+  margin-left: 13%;
 }
 .el-aside {
   position: fixed;

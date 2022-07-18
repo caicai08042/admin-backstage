@@ -14,7 +14,7 @@
         <i class="el-icon-menu"></i>
         <span slot="title">首页</span>
       </el-menu-item>
-      <el-menu-item index="2">
+      <el-menu-item index="workcenter">
         <i class="el-icon-monitor"></i>
         <span slot="title">工作中心</span>
       </el-menu-item>
@@ -24,8 +24,8 @@
           <span>工单中心</span>
         </template>
         <el-menu-item-group>
-          <el-menu-item index="3-1">工单列表</el-menu-item>
-          <el-menu-item index="3-2">备注</el-menu-item>
+          <el-menu-item index="workLists">工单列表</el-menu-item>
+          <el-menu-item index="bz">备注</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
       <el-submenu index="4">
@@ -55,7 +55,7 @@
         </template>
         <el-menu-item-group>
           <el-menu-item index="6-1">数据概览</el-menu-item>
-          <el-menu-item index="6-2">备注</el-menu-item>
+          <el-menu-item index="bz">备注</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
       <el-submenu index="7">
@@ -72,11 +72,21 @@
       <el-submenu index="8">
         <template slot="title">
           <i class="el-icon-help"></i>
+          <span>客服中心</span>
+        </template>
+        <el-menu-item-group>
+          <el-menu-item index="8-1">客服管理</el-menu-item>
+          <el-menu-item index="8-2">绩效考核</el-menu-item>
+        </el-menu-item-group>
+      </el-submenu>
+      <el-submenu index="9">
+        <template slot="title">
+          <i class="el-icon-help"></i>
           <span>帮助中心</span>
         </template>
         <el-menu-item-group>
-          <el-menu-item index="8-1">使用及帮助</el-menu-item>
-          <el-menu-item index="8-2">BUG反馈</el-menu-item>
+          <el-menu-item index="9-1">使用及帮助</el-menu-item>
+          <el-menu-item index="9-2">BUG反馈</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
     </el-menu>
